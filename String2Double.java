@@ -5,7 +5,7 @@ public static double String2Double (String input)
 	for(int i = 0; i < input.length(); i++) num += (input.charAt(i)-'0')*(Math.pow(10,input.length()-i-1));
     	return num;
 }
-또는
+//또는
 int to = Integer.parseInt(from);
 
 //int형을 String형으로 변환
